@@ -3,7 +3,6 @@ import { Logger, ValidationPipe } from '@nestjs/common';
 import { AppModule } from './app.module';
 import { envs } from './configs/envs';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
-import { env } from 'process';
 
 async function bootstrap() {
   const logger = new Logger('Main');
