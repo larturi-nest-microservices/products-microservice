@@ -16,5 +16,5 @@ pnpm install
 
 npx prisma migrate dev
 
-pnpm wun start:dev
+pnpm run start:dev
 ```
