@@ -18,3 +18,5 @@ npx prisma migrate dev
 
 pnpm run start:dev
 ```
+
+Si eliminas la carpeta node modules, recordar correr `npx prisma generate`
